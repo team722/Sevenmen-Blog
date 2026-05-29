@@ -19,7 +19,7 @@ export function AdminLayout({ children }: AdminLayoutProps) {
     <div className="admin-shell">
       <aside className="admin-sidebar">
         <Link to="/dashboard" className="admin-logo">
-          Blog Admin
+          Blog Admins
         </Link>
 
         <nav className="admin-nav">
