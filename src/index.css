@@ -1704,5 +1704,64 @@ h4 {
     transform: rotate(360deg);
   }
 }
+
+
+
+.dashboard-stat-icon.purple {
+  background: #ede9fe;
+  color: #6d28d9;
+}
+
+.contact-submission-panel {
+  margin-top: 28px;
+}
+
+.contact-cell {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: #334155;
+}
+
+.message-preview {
+  max-width: 260px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dashboard-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dashboard-icon-btn {
+  width: 34px;
+  height: 34px;
+  border: 0;
+  border-radius: 8px;
+  background: #f1f5f9;
+  color: #0f172a;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.dashboard-icon-btn:hover {
+  background: #e2e8f0;
+}
+
+.dashboard-icon-btn.danger {
+  color: #dc2626;
+}
+
+.dashboard-icon-btn.danger:hover {
+  background: #fee2e2;
+}
+
+
+
   
 }

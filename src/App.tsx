@@ -6,6 +6,7 @@ import { AddBlogPage } from "./pages/AddBlogPage";
 import { BlogEditPage } from "./pages/BlogEditPage";
 import { BlogDetailsPage } from "./pages/BlogDetailsPage";
 
+
 <Route path="/blog/:slug" element={<BlogDetailsPage />} />
 
 
